@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url("../images/green-leaves.jpg");
+}
+
+.rotate {
+  writing-mode: vertical-lr;
+  display: inline;
+  transform: rotate(180deg) translateX(-5px) !important;
+}
