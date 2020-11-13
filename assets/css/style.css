@@ -1,5 +1,19 @@
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Gotham-Bold.ttf);
+}
+
+.display-4 {
+  font-family:myFirstFont;
+  font-weight: bold;
+  color: white;
+}
 .jumbotron {
     background-image: url("../images/green-leaves.jpg");
+    background-size: cover;
+    height:560px;
+    border-radius: 0px ;
 }
 
 .rotate {
@@ -7,3 +21,6 @@
   display: inline;
   transform: rotate(180deg) translateX(-5px) !important;
 }
+
+
+
